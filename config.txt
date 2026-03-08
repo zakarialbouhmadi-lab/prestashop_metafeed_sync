@@ -1,0 +1,8 @@
+spreadsheet_feed_id = 14zTr45QT79N7GvIJ5SUyE02aVovSLKCLnZADUyLLisM
+feed_sheet_name = Zeszyt1
+shop_base_url = https://looksy.com.pl
+service_account_file = ./spreadsheet-service-account-key.json
+db_host = marcinxkub.mysql.dhosting.pl
+db_name = jo3nai_p8looksy
+db_user = iego9u_zak
+db_pass = greengl@j@OU1
