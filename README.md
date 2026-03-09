@@ -1,4 +1,5 @@
 # prestashop-meta-feed
+![PrestaShop](https://img.shields.io/badge/PrestaShop-8.1.7%20%7C%208.2-blue) ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 
 A lightweight Python script that exports active products from a **PrestaShop 8.1.7** database into a **Google Sheets** spreadsheet formatted as a **Meta (Facebook) Product Catalog feed**.
 
@@ -14,6 +15,18 @@ Designed to run on a schedule (e.g. via cron) so your Meta catalog stays up to d
 - Builds correct PrestaShop image URLs from image IDs
 - All credentials stored in `config.txt` — never in the source code
 - Simple rotating log file under `./log/`
+
+---
+
+## Compatibility
+
+| Software | Version |
+|----------|---------|
+| PrestaShop | 8.1.7, 8.2 |
+| Python | 3.8+ |
+| MySQL | 5.7+ |
+
+Tested on a live production store. The SQL queries use standard PrestaShop table names (`ps_` prefix) and should work on any PS 8.x installation.
 
 ---
 
